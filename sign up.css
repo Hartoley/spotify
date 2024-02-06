@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(18,18,18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(18,18,18);
+}
+
+.logo {
+    width: 120px;
+    margin-left: -1000px;
+
+}
+
+.main {
+    /* background-color: rgb(28, 17, 3); */
+    width: 27%;
+    height: 100vh;
+    border-bottom: solid 0.5px grey;
+    margin-bottom: 10px;
+}
+
+.sign {
+    Font-size: 40px;
+    Font-weight: 700;
+    width: 100%;
+    Line-height: normal;
+    color: rgb(255, 255, 255);
+}
+.h4 {
+    margin-top: 30px;
+    color: white;
+}
+
+input {
+    background-color: rgb(18,18,18);
+    border: solid 0.5px rgb(104,104,104);
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input:hover {
+    border: solid 0.5px white;
+}
+
+hr {
+    border: solid 0.1px rgb(104,104,104); 
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+.use {
+    margin-top: 10px;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: normal;
+    color: rgb(30, 215, 96);
+    text-decoration: underline;
+}
+
+.log3 {
+    width: 100%;
+    height: 45px;
+    background-color:rgb(30,215,96);
+    border: none;
+    color: black;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.log3 a {
+    color: black;
+}
+
+.singb {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(18,18,18);
+    border: solid 0.5px rgb(104,104,104);
+    color: white;
+    margin-top: 10px;
+    border-radius: 50px;
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: normal;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.singb:hover {
+    border: solid 0.5px white;
+}
+
+.ggg {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.ggg1 {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.log {
+    width: 100%;
+    height: 20vh;
+    text-align: center; 
+    margin-top: 20px;
+    color: white;
+
+    
+}
+
+.have {
+    Font-size: 16px;
+    Font-weight: 400;  
+    Line-height: normal;
+    color: rgb(167, 167, 167);
+    cursor: pointer;
+}
+
+span {
+    text-decoration: underline;
+    color: white;
+}
+
+.site {
+    margin-top: 40px;
+    Font-size: 11px;
+    Font-weight: 400;
+    Line-height: normal;
+    color: rgb(167, 167,167)
+}
+
+
+
+        
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+    .logo {
+        margin-left: 20px;
+      
+        
+    }
+
+   .main {
+        width: 35%;
+        
+        
+   }
+
+ 
+
+    }
+
+   @media (max-width: 870px) {
+    .logo {
+        margin-left: 20px;
+      
+        
+    }
+
+   .main {
+        width: 40%;
+   }
+
+    }
+
+   @media (max-width: 680px) {
+    .logo {
+        margin-left: 20px;
+      
+        
+    }
+
+   .main {
+        width: 45%;
+   }
+
+    }
+
+   @media (max-width: 870px) {
+    .logo {
+        margin-left: 20px;
+      
+        
+    }
+
+   .main {
+        width: 40%;
+   }
+    }
+
+   @media (max-width: 700px) {
+    .logo {
+        margin-left: 20px;
+      
+        
+    }
+
+   .main {
+        width: 50%;
+   }
+
+}
+
+@media (max-width: 570px) {
+    .logo {
+        margin-left: 20px;
+      
+        
+    }
+
+   .main {
+        width: 60%;
+   }
+
+    
+}
+
+@media (max-width: 487px) {
+    .logo {
+        margin-left: 10px;
+      
+        
+    }
+
+   .main {
+        width: 70%;
+   }
+
+    
+}
+
+@media (max-width: 435px) {
+    .logo {
+        margin-left: 10px;
+  
+    }
+
+   .main {
+        width: 65%;
+
+   }
+
+   .sign {
+    font-size: 30px;
+   }
+
+   .singb {
+    gap: 1rem;
+    font-size: 13px;
+   }
+
+    
+}
+

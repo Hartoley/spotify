@@ -1,0 +1,646 @@
+* {margin: 0;
+padding: 0;
+}
+body {
+    height: 105vh;
+    width: 100%;
+    background-color: black;
+}
+
+.body {
+    margin-top: 8px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh;
+  
+    
+}
+
+.small {
+    width: 22.5%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+    
+}
+
+
+.big {
+    width: 76%;
+    height: 90vh;
+    background-image: linear-gradient(rgb(35,35,35), rgb(18,18,18));
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    border-radius: 10px;
+}
+
+.sm1 {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(18,18,18);
+    border-radius: 10px;
+
+}
+
+.sm2 {
+    width: 100%;
+    height: 58vh;
+    background-color: rgb(18,18,18);
+    border-radius: 10px;
+}
+
+.box {
+    width: 24%;
+    height: 25vh;
+    background-color: blue;
+}
+
+.spot {
+    margin-top:-20px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+#home {
+    margin-top: -5px;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+#home1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(212, 197, 197);
+    font-size: 27px;
+}
+
+.icon {
+    display: flex;
+}
+.h4 {
+    color: white;
+    margin-left: 10px;
+}
+
+.hh {
+    color: rgb(212, 197, 197);
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.libr {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(18,18,18);
+    color: rgb(212, 197, 197);
+
+}
+
+#icon1 {
+    margin-left: 20px;
+}
+
+.lib {
+    margin-left: 10px;
+}
+
+#plus {
+    margin-left: 120px;
+}
+
+.scr {
+    height: 60px;
+    background-color: rgb(18,18,18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.play {
+    width: 97%;
+    height: 150px;
+    padding-bottom: 5px;
+    background-color: rgb(36,36,36);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cre {
+    margin-top: 5px;
+    font-weight: 900;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.cre1 {
+    margin-top: 5px;
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+
+.crea {
+    margin-top: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    width: 130px;
+    height: 33px;
+    border: none;
+    border-radius: 15px;
+}
+
+.leg {
+    margin-left: 1rem;
+    margin-top: 10px;
+    gap: 10px;
+    line-height: 20px;
+    width: 65%;
+    display: flex;
+    font-size: 11px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    color: white;
+}
+.eng {
+    margin-left: 15px;
+    margin-top: 40px;
+    padding: 3px 7px 3px 7px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 1px grey;
+    color: white;
+    font-size: 13px;
+    background-color: rgb(18,18,18);
+}
+
+#eng {
+    font-size: 18px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.189);
+  
+}
+
+::-webkit-scrollbar-thumb {
+    background: #88888884;
+    
+}
+
+header {
+    height: 12vh;
+    width: 75%;
+    background-color: rgb(16,16,16);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+
+}
+
+.arrow {
+    margin-left: 20px;
+    width: 80px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#arrow {
+    color: white;
+    font-size: 25px;
+    
+}
+
+.arr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(9,9,9);
+   
+}
+
+.sing {
+    display: flex;
+    width: 22%;
+    align-items: center;
+    justify-content: space-between;
+   margin-right: 15px;
+} 
+
+.b1 {
+    font-weight: 700;
+    font-size: 14.5px;
+    background-color: rgb(16,16,16);
+    border: none;
+    color: rgb(165,165,165);
+    transition: 0.3s;
+
+}
+
+.b1 a:hover {
+    color: white;
+    
+}
+
+.b1 a {
+    color: rgb(165,165,165);
+}
+
+.b2 a {
+    color: black;
+}
+
+.b2 {
+    font-weight: 700;
+    font-size: 14.5px;
+    background-color: rgb(255,255,255);
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    height: 45px;
+    color: black;
+    transition: 0.3s;
+
+}
+
+.b2:hover {
+    transform: scale(1.05,1);
+    background-color: rgb(228, 216, 216);
+    
+}
+
+.spo {
+    color: white;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+
+.spoct {
+    display: flex;
+    width: 100%;
+    /* background-color: azure; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.show {
+    margin-top: 70px;
+    color: rgb(178,178,178);
+    margin-right: 15px;
+}
+
+.music {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    height: 50vh;
+}
+
+/* .musicb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(24,24,24);
+    width: 22%;
+    height: 51vh;
+    transition: 0.5s;
+}
+
+.musicb:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+} */
+
+.plat {
+    position: relative;
+    border-radius: 100%;
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(48, 190, 48);
+    display: none;
+    transition: 0.5s;
+    
+}
+
+.plas {
+    position: relative;
+    left: 12px;
+    top: 10px;
+    
+}
+
+.plat1 {
+    position: relative;
+    border-radius: 100%;
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(48, 190, 48);
+    display: none;
+    transition: 0.5s;
+    
+}
+
+.plat2 {
+    position: relative;
+    border-radius: 100%;
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(48, 190, 48);
+    display: none;
+    transition: 0.5s;
+    
+}
+
+.plat3 {
+    position: relative;
+    border-radius: 100%;
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(48, 190, 48);
+    display: none;
+    transition: 0.5s;
+    
+}
+
+.plas1 {
+    position: relative;
+    left: 12px;
+    top: 10px;
+    
+}
+
+.musicb:hover .plat {
+    display: block;
+}
+
+.musicb1:hover .plat1 {
+    display: block;
+}
+
+.musicb2:hover .plat2 {
+    display: block;
+}
+
+.musicb3:hover .plat3 {
+    display: block;
+}
+
+.musicb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(24,24,24);
+    width: 22%;
+    height: 51vh;
+    transition: 0.5s;
+}
+
+.musicb1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(24,24,24);
+    width: 22%;
+    height: 51vh;
+    transition: 0.5s;
+}
+.musicb2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(24,24,24);
+    width: 22%;
+    height: 51vh;
+    transition: 0.5s;
+}
+
+.musicb3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(24,24,24);
+    width: 22%;
+    height: 51vh;
+    transition: 0.5s;
+    
+}
+
+.musicb:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.musicb1:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.musicb2:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.musicb3:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.pics {
+    margin-top: 15px;
+    width: 83%;
+    height: 33vh;
+    border-radius: 10px;
+}
+
+.text {
+    margin-top: 10px;
+    width: 90%;
+    display: block;
+}
+
+.text h4 {
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+
+}
+
+.text p{
+    color: rgb(160,160,160);
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+
+.after {
+    height: 70vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.aft {
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: peachpuff; */
+    align-items: top;
+    justify-content: space-evenly;
+    height: 35vh;
+    width: 95%;
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: solid 0.05px rgb(143, 139, 139);
+   
+}
+
+.tett a {
+    color: white;
+    text-decoration: none;
+}
+
+.tett {
+    width: 23%;
+    line-height: 25px;
+    /* background-color: blue; */
+}
+
+.tett h3 {
+    font-size: 16px;
+    font-weight: 900; 
+    color: white;
+}
+
+.tett p {
+    color: rgb(167,167,167);
+}
+.tett p:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.tett p a {
+    color: rgb(167,167,167);
+    text-decoration: none;
+}
+
+.afte {
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: peachpuff; */
+    align-items: top;
+    height: 10vh;
+    width: 95%;
+    display: flex;
+    margin-bottom: 30px;
+    color: rgb(167,167,167);
+    font-size: 13px;
+    
+   
+}
+
+.ico1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(41,41,41);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.ico1:hover {
+    
+}
+
+.teta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 18%;
+}
+
+.ing, .twi {
+    width: 20px;
+    height: 20px;
+}
+
+.last {
+    margin-top: 10px;
+    width: 100%;
+    height: 13vh;
+    /* background-color: aqua; */
+    background-image: linear-gradient(to right, rgb(175,41,151) , rgb(80,154,244));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pre {
+    margin-left: 20px;
+    font-weight: 200;
+    color: white;
+    font-size: 13px;
+}
+
+.up {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+.free {
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+.free:hover {
+    transform: scale(1.08,1);
+}

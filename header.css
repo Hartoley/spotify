@@ -1,0 +1,120 @@
+body {
+    background-color: red;
+    height: 300vh;
+}
+header {
+    width: 100%;
+    height: 13vh;
+    /* background-color: plum; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid 1px rgb(218,218,218);
+    position: fixed;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    /* position: relative; */
+   
+
+}
+
+.how {
+    position: absolute;
+    background-color: white;
+    margin-top: 5px;
+    width: 200px;
+    margin-left: -40px;
+    padding: 13px 0 13px 20px;
+    line-height: 15px;
+    font-size: 16px;
+    border: solid 0.5px rgb(218,218,218);
+    display: none;
+}
+
+.drop:focus-within .how {
+    display: block;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo p{
+    font-family: 'Raleway', sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logoo {
+    width: 120px;
+    height: 33px;
+}
+
+.ddrop {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.dropd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    transition: 0.1s;
+    border: none;
+    background-color: white;
+    
+}
+
+#dropdown {
+    transition: 0.001s;
+    transition: background-color 0.3s ease;
+}
+#dropdown1 {
+    transition: 0.001s;
+}
+#dropdown2 {
+    transition: 0.001s;
+}
+#dropdown3 {
+    transition: 0.001s;
+}
+#dropdown4 {
+    transition: 0.001s;
+}
+#dropdown5 {
+    transition: 0.001s;
+}
+
+
+
+.dropd:hover {
+    color: rgb(113, 111, 111);
+}
+
+.button {
+    color: white;
+    background-color: black;
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.butt {
+    transition: 0.7s;
+
+}
+
+.butt:hover {
+    opacity: 0.4;
+}
+
